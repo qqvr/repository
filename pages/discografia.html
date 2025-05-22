@@ -6,174 +6,186 @@
     <title>Metallica</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
-
     <!-- Tu CSS personalizado -->
     <link rel="stylesheet" href="../css/style.css">
-
 </head>
 <body>
     <header>
-
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="../index.html">
-      <img src="../mdia/metlic.png" alt="MetallicaLogo" width="50" height="50">
-    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMetallica" aria-controls="navbarMetallica" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarMetallica">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link" href="../index.html">HOME</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="discografia.html">DISCOGRAFÍA</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="tour.html">TOUR</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="music.html">MÚSICA</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">CONTACTO</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../mdia/metlic.png" alt="MetallicaLogo" width="50" height="50">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMetallica" aria-controls="navbarMetallica" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarMetallica">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="../index.html">HOME</a></li>
+                        <li class="nav-item"><a class="nav-link" href="discografia.html">DISCOGRAFÍA</a></li>
+                        <li class="nav-item"><a class="nav-link" href="tour.html">TOUR</a></li>
+                        <li class="nav-item"><a class="nav-link" href="music.html">MÚSICA</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">CONTACTO</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
 
-    <main>
+    <main class="container my-5">
         <section>
-            <h1>Discografía</h1>
-            <h2>Explora los álbumes que marcaron la historia del metal</h2>
+            <h1 class="mb-3">Discografía</h1>
+            <h2 class="mb-5">Explora los álbumes que marcaron la historia del metal</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
 
+                <div class="col">
+                    <div class="card h-100 album">
+                        <img src="../mdia/kill_em_all.jpg" class="card-img-top" alt="KillEmAll">
+                        <div class="card-body">
+                            <h5 class="card-title">Kill em All (1983)</h5>
+                            <p class="card-text">El álbum debut de Metallica, que ayudó a definir el thrash metal.</p>
+                        </div>
+                    </div>
+                </div>
 
-            <div class="album">
+                <div class="col">
+                    <div class="card h-100 album">
+                        <img src="../mdia/Ride_the_lighting.jpg" class="card-img-top" alt="RideTheLightning">
+                        <div class="card-body">
+                            <h5 class="card-title">Ride the Lightning (1984)</h5>
+                            <p class="card-text">Un disco más maduro con composiciones complejas y clásicos como "Fade to Black" y "For Whom the Bell Tolls".</p>
+                        </div>
+                    </div>
+                </div>
 
-                <img src="../mdia/kill_em_all.jpg" alt="KillEmAll">
-                <h2>Kill em All (1983)</h2>
-                <p>El álbum debut de Metallica, que ayudó a definir el thrash metal.</p>
+                <div class="col">
+                    <div class="card h-100 album">
+                        <img src="../mdia/Master_of_puppets.jpg" class="card-img-top" alt="MasterOfPuppets">
+                        <div class="card-body">
+                            <h5 class="card-title">Master of Puppets (1986)</h5>
+                            <p class="card-text">Considerado uno de los mejores álbumes de metal de la historia, con canciones como "Battery" y "Master of Puppets".</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 album">
+                        <img src="../mdia/And_justice_for_all.jpg" class="card-img-top" alt="JusticeForAll">
+                        <div class="card-body">
+                            <h5 class="card-title">… And Justice for all (1988)</h5>
+                            <p class="card-text">Un álbum técnico y oscuro, famoso por "One" y su compleja estructura musical.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 album">
+                        <img src="../mdia/Metallica.jpg" class="card-img-top" alt="BlackAlbum">
+                        <div class="card-body">
+                            <h5 class="card-title">Metallica (1991)</h5>
+                            <p class="card-text">Conocido como The Black Album, llevó a Metallica al estrellato mundial con éxitos como "Enter Sandman" y "Nothing Else Matters".</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 album">
+                        <img src="../mdia/Load.jpg" class="card-img-top" alt="Load">
+                        <div class="card-body">
+                            <h5 class="card-title">Load (1996)</h5>
+                            <p class="card-text">Un cambio de sonido con influencias del hard rock y blues, marcando una nueva era para la banda.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 album">
+                        <img src="../mdia/Reload.jpg" class="card-img-top" alt="Reload">
+                        <div class="card-body">
+                            <h5 class="card-title">Reload (1997)</h5>
+                            <p class="card-text">Continuación de Load, con un sonido similar y canciones como "Fuel" y "The Memory Remains".</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 album">
+                        <img src="../mdia/GarageInc.jpg" class="card-img-top" alt="GarageInc">
+                        <div class="card-body">
+                            <h5 class="card-title">Garage Inc. (1998)</h5>
+                            <p class="card-text">Álbum de covers donde Metallica rinde homenaje a sus influencias con versiones de Misfits, Motörhead y más.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 album">
+                        <img src="../mdia/SM.jpg" class="card-img-top" alt="SM">
+                        <div class="card-body">
+                            <h5 class="card-title">S&M (1999)</h5>
+                            <p class="card-text">Concierto en vivo junto a la Orquesta Sinfónica de San Francisco, fusionando metal y música clásica.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 album">
+                        <img src="../mdia/StAnger.jpg" class="card-img-top" alt="StAnger">
+                        <div class="card-body">
+                            <h5 class="card-title">St. Anger (2003)</h5>
+                            <p class="card-text">Un disco crudo y sin solos de guitarra, reflejando los problemas internos de la banda en ese momento.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 album">
+                        <img src="../mdia/DeathMagnetic.jpg" class="card-img-top" alt="DeathMagnetic">
+                        <div class="card-body">
+                            <h5 class="card-title">Death Magnetic (2008)</h5>
+                            <p class="card-text">Regreso al sonido pesado de los 80, con estructuras más complejas y canciones como "The Day That Never Comes".</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 album">
+                        <img src="../mdia/Hardwired.jpg" class="card-img-top" alt="Hardwired">
+                        <div class="card-body">
+                            <h5 class="card-title">Hardwired… To Self-destruct (2016)</h5>
+                            <p class="card-text">Un disco moderno y potente, con una mezcla de thrash y hard rock.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 album">
+                        <img src="../mdia/SM2.jpg" class="card-img-top" alt="SM2">
+                        <div class="card-body">
+                            <h5 class="card-title">S&M2 (2020)</h5>
+                            <p class="card-text">Segunda colaboración con la Orquesta Sinfónica de San Francisco, celebrando el legado de S&M.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 album">
+                        <img src="../mdia/Seasons.jpg" class="card-img-top" alt="Seasons">
+                        <div class="card-body">
+                            <h5 class="card-title">72 Seasons (2023)</h5>
+                            <p class="card-text">Un álbum con sonido renovado, explorando la identidad y la evolución de la banda.</p>
+                        </div>
+                    </div>
+                </div>
 
             </div>
-
-            <div class="album">
-
-                <img src="../mdia/Ride_the_lighting.jpg" alt="RideTheLightning">
-                <h2>Ride the Lightning (1984)</h2>
-                <p>Un disco más maduro con composiciones complejas y clásicos como "Fade to Black" y "For Whom the Bell Tolls".</p>
-
-            </div>
-
-            <div class="album">
-
-                <img src="../mdia/Master_of_puppets.jpg" alt="MasterOfPuppets">
-                <h2>Master of Puppets (1986)</h2>
-                <p>Considerado uno de los mejores álbumes de metal de la historia, con canciones como "Battery" y "Master of Puppets".</p>
-
-            </div>
-            
-            <div class="album">
-
-                <img src="../mdia/And_justice_for_all.jpg" alt="JusticeForAll">
-                <h2>… And Justice for all (1988)</h2>
-                <p>Un álbum técnico y oscuro, famoso por "One" y su compleja estructura musical.</p>
-
-            </div>
-            
-            <div class="album">
-
-                <img src="../mdia/Metallica.jpg" alt="BlackAlbum">
-                <h2>Metallica (1991)</h2>
-                <p>Conocido como The Black Album, llevó a Metallica al estrellato mundial con éxitos como "Enter Sandman" y "Nothing Else Matters".</p>
-
-            </div>
-            
-            <div class="album">
-
-                <img src="../mdia/Load.jpg" alt="Load">
-                <h2>Load (1996)</h2>
-                <p>Un cambio de sonido con influencias del hard rock y blues, marcando una nueva era para la banda.</p>
-
-            </div>
-            
-            <div class="album">
-
-                <img src="../mdia/Reload.jpg" alt="Reload">
-                <h2>Reload (1997)</h2>
-                <p>Continuación de Load, con un sonido similar y canciones como "Fuel" y "The Memory Remains".</p>
-
-            </div>
-
-            <div class="album">
-
-                <img src="../mdia/GarageInc.jpg" alt="GarageInc">
-                <h2>Garage Inc. (1998)</h2>
-                <p>Álbum de covers donde Metallica rinde homenaje a sus influencias con versiones de Misfits, Motörhead y más.</p>
-
-            </div>
-
-            <div class="album">
-
-                <img src="../mdia/SM.jpg" alt="SM">
-                <h2>S&M (1999)</h2>
-                <p>Concierto en vivo junto a la Orquesta Sinfónica de San Francisco, fusionando metal y música clásica.</p>
-
-            </div>
-            
-            <div class="album">
-
-                <img src="../mdia/StAnger.jpg" alt="StAnger">
-                <h2>St. Anger (2003)</h2>
-                <p>Un disco crudo y sin solos de guitarra, reflejando los problemas internos de la banda en ese momento.</p>
-
-            </div>
-            
-            <div class="album">
-
-                <img src="../mdia/DeathMagnetic.jpg" alt="DeathMagnetic">
-                <h2>Death Magnetic (2008)</h2>
-                <p>Regreso al sonido pesado de los 80, con estructuras más complejas y canciones como "The Day That Never Comes".</p>
-
-            </div>
-            
-            <div class="album">
-
-                <img src="../mdia/Hardwired.jpg" alt="Hardwired">
-                <h2>Hardwired… To Self-destruct (2016)</h2>
-                <p>Un disco moderno y potente, con una mezcla de thrash y hard rock.</p>
-
-            </div>
-            
-            <div class="album">
-
-                <img src="../mdia/SM2.jpg" alt="SM2">
-                <h2>S&M2 (2020)</h2>
-                <p>Segunda colaboración con la Orquesta Sinfónica de San Francisco, celebrando el legado de S&M.</p>
-            </div>
-            <div class="album">
-
-                <img src="../mdia/Seasons.jpg" alt="Seasons">
-                <h2>72 Seasons (2023)</h2>
-                <p>Un álbum con sonido renovado, explorando la identidad y la evolución de la banda.</p>
-
-            </div>
-
         </section>
-        
     </main>
 
-
-
-
-    <footer>
+    <footer class="bg-dark text-light text-center py-4 mt-5">
         <p>© 2025 Proyecto Educativo - Metallica Fan Page</p>
         <p>Este sitio es un proyecto académico y no tiene fines comerciales ni derechos sobre el contenido oficial de Metallica.</p>
         <p>Desarrollado por Bautista Lecuna para Coderhouse.</p>
     </footer>
-
 </body>
 </html>

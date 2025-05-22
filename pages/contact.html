@@ -6,63 +6,65 @@
     <title>Metallica</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
-
     <!-- Tu CSS personalizado -->
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <header>
-
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="../index.html">
-      <img src="../mdia/metlic.png" alt="MetallicaLogo" width="50" height="50">
-    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMetallica" aria-controls="navbarMetallica" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarMetallica">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link" href="../index.html">HOME</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="discografia.html">DISCOGRAFÍA</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="tour.html">TOUR</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="music.html">MÚSICA</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">CONTACTO</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../mdia/metlic.png" alt="MetallicaLogo" width="50" height="50">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMetallica" aria-controls="navbarMetallica" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarMetallica">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="discografia.html">DISCOGRAFÍA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tour.html">TOUR</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="music.html">MÚSICA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">CONTACTO</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
 
     <main>
-        <section class="contact">
-            <h1>Deja tu comentario</h1>
-            <form action="thankyou.html" method="get">
-                <label for="name">Nombre:</label><br>
-                <input type="text" id="name" name="name"><br>
-                
-                <label for="comments">Comentarios:</label><br>
-                <textarea id="comments" name="comments"></textarea><br><br>
-    
-                <button type="submit">Enviar</button>
-            </form>
+        <section class="contact my-5">
+            <div class="container">
+                <h1 class="mb-4">Deja tu comentario</h1>
+                <form action="thankyou.html" method="get">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Nombre:</label>
+                        <input type="text" class="form-control" id="name" name="name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="comments" class="form-label">Comentarios:</label>
+                        <textarea class="form-control" id="comments" name="comments" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </div>
         </section>
     </main>
 
-
-    <footer>
-        <p>© 2025 Proyecto Educativo - Metallica Fan Page</p>
-        <p>Este sitio es un proyecto académico y no tiene fines comerciales ni derechos sobre el contenido oficial de Metallica.</p>
-        <p>Desarrollado por Bautista Lecuna para Coderhouse.</p>
+    <footer class="bg-dark text-light text-center py-3 mt-5">
+        <p class="mb-1">© 2025 Proyecto Educativo - Metallica Fan Page</p>
+        <p class="mb-1">Este sitio es un proyecto académico y no tiene fines comerciales ni derechos sobre el contenido oficial de Metallica.</p>
+        <p class="mb-0">Desarrollado por Bautista Lecuna para Coderhouse.</p>
     </footer>
+</body>
+</html>
