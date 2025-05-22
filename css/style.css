@@ -1,0 +1,209 @@
+/* Comentario en css */
+/* Header & footer #D4C9BE */
+
+
+html {
+    font-size: 70%;
+    zoom: 0.85;
+}
+
+/* Header */
+header {
+    background-color: #1C1C1C; 
+    color: #1C1C1C; 
+    padding: 8px;
+    text-align: center;
+    font-size: 1.4em;
+}
+header img{
+    height: 190px;
+    width: 1200px;
+}
+header a{
+    text-align: center;
+    text-decoration: none;
+    color: rgb(255, 254, 252);
+}
+
+
+/* Body */
+
+body {
+    background-color: #121212; 
+    color: #E0E0E0; 
+    font-family: Arial, sans-serif;
+}
+
+/* Index */
+
+.Metallica {
+    background-color: #1C1C1C;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+main h1 {
+    color: #D4C9BE;
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+main h2 {
+    color: #D4C9BE;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.Metallica p {
+    color: #E0E0E0; 
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin: 0;
+}
+.Metallica img {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Integrantes Section */
+.integrantes {
+    background-color: #1C1C1C;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+.integrantes h3, .integrantes h4, .integrantes h5 {
+    color: #D4C9BE;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.integrantes li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #2A2A2A;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.integrantes li img {
+    width: 150px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.integrantes p {
+    color: #E0E0E0; 
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin: 0;
+}
+
+
+
+
+/* Discografia */
+
+.album {
+    color: #FFFFFF; 
+    padding: 20px;
+    text-align: center;
+    background-color: #1a1a1a; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+    margin: 20px auto; 
+    max-width: 500px; 
+}	
+
+.album img {
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+}
+
+/* Tour */
+
+.tourr {
+    background-color: #181818; 
+    color: #E0E0E0; 
+    padding: 40px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+    margin: 20px auto; 
+    max-width: 700px; 
+    text-align: center; 
+    line-height: 1.9; 
+    font-size: 1.2em; 
+}
+.tourr p{
+    font-size: 1.3em;
+}
+
+
+/* Music */
+
+.playlist {
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* contact */
+.contact {
+    color: #FFFFFF; 
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 20px;
+    text-align: center;
+}	
+
+.comentario {
+    color: #c2b4a7; 
+    padding-left: 30px;
+    text-align: center;
+    padding-bottom: 100px;
+    padding-top: 70px;
+}
+
+.comentario a{
+    color: white
+}
+
+
+/* Footer */
+footer {
+    background-color: #1C1C1C; 
+    color: #FFFFFF; 
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+
+
+/* para un p en concreto hacer una class y la llamamos por 
+.azul{ 
+    color: blue; 
+}*/
+
+/* la class tiene mas peso que llamar por etiqueta */
