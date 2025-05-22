@@ -4,18 +4,35 @@
 
 html {
     font-size: 70%;
+    zoom: 90%;
 }
 
 /* Header */
 header {
     background-color: #1C1C1C; 
     color: #1C1C1C; 
-    padding: 8px;
+    padding: 1px;
     text-align: center;
     font-size: 1.4em;
 }
+
+/* Nav horizontal */
+header nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+header nav a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 18px;
+    font-size: 1.2em;
+}
+
 header img{
-    height: 160px;
+    height: 230px;
     width: 1200px;
 }
 header a{
@@ -161,8 +178,12 @@ main h2 {
 /* Music */
 
 .playlist {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
     padding: 20px;
-    text-align: center;
 }
 
 
