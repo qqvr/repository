@@ -1,0 +1,32 @@
+header {
+  background-color: $bg-dark;
+  color: $bg-dark;
+  padding: 1px;
+  text-align: center;
+  font-size: 1.4em;
+
+  nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+    a {
+      display: inline-block;
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 18px;
+      font-size: 1.2em;
+    }
+  }
+
+  img {
+    height: 230px;
+    width: 1200px;
+  }
+
+  a {
+    text-align: center;
+    text-decoration: none;
+    color: rgb(255, 254, 252);
+  }
+}
