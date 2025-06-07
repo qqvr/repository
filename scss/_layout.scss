@@ -8,3 +8,16 @@ body {
   color: $text-light;
   font-family: $font-main;
 }
+
+@mixin flex-center($direction: row, $gap: 20px) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: center;
+  align-items: center;
+  gap: $gap;
+}
+
+%responsive-box {
+  padding: 40px;
+  max-width: 1200px;
+}
