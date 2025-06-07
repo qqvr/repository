@@ -1,6 +1,6 @@
 header {
-  background-color: $bg-dark;
-  color: #fff; // Use a contrasting color for text
+  background-color: $bg-extra-dark;
+  color: #fff;
   padding: 1px;
   text-align: center;
   font-size: 1.4em;
@@ -20,8 +20,5 @@ header {
     }
   }
 
-  img {
-    height: 230px;
-    width: 1200px;
-  }
+
 }
