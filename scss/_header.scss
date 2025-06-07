@@ -1,6 +1,6 @@
 header {
   background-color: $bg-dark;
-  color: $bg-dark;
+  color: #fff; // Use a contrasting color for text
   padding: 1px;
   text-align: center;
   font-size: 1.4em;
@@ -16,17 +16,12 @@ header {
       text-decoration: none;
       padding: 10px 18px;
       font-size: 1.2em;
+      text-align: center;
     }
   }
 
   img {
     height: 230px;
     width: 1200px;
-  }
-
-  a {
-    text-align: center;
-    text-decoration: none;
-    color: rgb(255, 254, 252);
   }
 }

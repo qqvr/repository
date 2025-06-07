@@ -3,3 +3,58 @@
 @import 'header';
 @import 'footer';
 @import 'secciones';
+ 
+
+
+.Metallica img,
+.integrantes img,
+.album img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 10px auto;
+  display: block;
+}
+
+header img,
+.navbar-brand img {
+  width: 220px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+@media (max-width: 576px) {
+  header img,
+  .navbar-brand img {
+    width: 120px;
+    height: auto;
+  }
+}
+
+body {
+  background-color: #1C1C1C;
+  color: #fff;
+}
+
+.Metallica,
+.integrantes,
+.album,
+.tourr {
+  padding: 10px;
+  max-width: 100%;
+  font-size: 1em;
+}
+
+main h1 {
+  font-size: 2em;
+}
+
+main h2,
+.integrantes h3,
+.integrantes h4,
+.integrantes h5 {
+  font-size: 1.2em;
+}
+
+  
