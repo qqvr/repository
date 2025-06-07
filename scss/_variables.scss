@@ -1,3 +1,9 @@
+@mixin border-radius-shadow($radius: 10px, $shadow: 0 4px 8px rgba(0, 0, 0, 0.5)) {
+  border-radius: $radius;
+  box-shadow: $shadow;
+}
+
+
 $bg-dark: #1C1C1C;
 $bg-body: #121212;
 $text-light: #E0E0E0;
