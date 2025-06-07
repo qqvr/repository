@@ -3,30 +3,26 @@ html {
   zoom: 85%;
 }
 
-body, html {
+html, body {
   background-color: #1C1C1C !important;
-}
-
-body {
-  color: #fff;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
 }
 
 header {
-  background-color: #080808;
-  color: #0a0a0a;
+  background-color: #1C1C1C;
+  color: #fff;
   padding: 1px;
   text-align: center;
   font-size: 1.4em;
 }
-
 header nav {
   display: flex;
   justify-content: center;
   gap: 30px;
 }
-
-header nav a,
-header a {
+header nav a {
   display: inline-block;
   color: #fff;
   text-decoration: none;
@@ -34,28 +30,17 @@ header a {
   font-size: 1.2em;
   text-align: center;
 }
-
-header img, .navbar-brand img {
-  width: 220px;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-}
-
-@media (max-width: 576px) {
-  header img, .navbar-brand img {
-    width: 120px;
-    height: auto;
-  }
+header img {
+  height: 230px;
+  width: 1200px;
 }
 
 footer {
-  background-color: #111111;
-  color: white; 
+  background-color: #1C1C1C;
+  color: white;
   text-align: center;
   padding: 1rem;
 }
-
 footer p {
   margin: 0.5rem 0;
   font-size: 0.9rem;
@@ -66,8 +51,6 @@ footer p {
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
   margin: 20px auto;
-  padding: 10px;
-  font-size: 1em;
 }
 
 .Metallica, .integrantes {
@@ -88,7 +71,6 @@ footer p {
   margin: 20px 0;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-  display: block;
 }
 
 .album {
@@ -98,7 +80,11 @@ footer p {
   background-color: #1a1a1a;
   max-width: 500px;
 }
-
+.album .tourr {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
 .album img {
   width: 300px;
   height: 300px;
@@ -114,7 +100,6 @@ footer p {
   line-height: 1.9;
   font-size: 1.2em;
 }
-
 .tourr p {
   font-size: 1.3em;
 }
@@ -143,7 +128,6 @@ footer p {
   padding-bottom: 100px;
   padding-top: 70px;
 }
-
 .comentario a {
   color: white;
 }
@@ -156,11 +140,11 @@ main h1, main h2,
 }
 
 main h1 {
-  font-size: 2em;
+  font-size: 3em;
 }
 
 main h2, .integrantes h3, .integrantes h4, .integrantes h5 {
-  font-size: 1.2em;
+  font-size: 2em;
 }
 
 .integrantes li {
@@ -170,3 +154,53 @@ main h2, .integrantes h3, .integrantes h4, .integrantes h5 {
   padding: 20px;
   background-color: #2A2A2A;
 }
+
+.Metallica img,
+.integrantes img,
+.album img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 10px auto;
+  display: block;
+}
+
+header img,
+.navbar-brand img {
+  width: 220px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+@media (max-width: 576px) {
+  header img,
+  .navbar-brand img {
+    width: 120px;
+    height: auto;
+  }
+}
+body {
+  background-color: #1C1C1C;
+  color: #fff;
+}
+
+.Metallica,
+.integrantes,
+.album,
+.tourr {
+  padding: 10px;
+  max-width: 100%;
+  font-size: 1em;
+}
+
+main h1 {
+  font-size: 2em;
+}
+
+main h2,
+.integrantes h3,
+.integrantes h4,
+.integrantes h5 {
+  font-size: 1.2em;
+}/*# sourceMappingURL=style.css.map */

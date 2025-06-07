@@ -2,8 +2,11 @@ html {
   font-size: 78%;
   zoom: 85%;
 }
-body, html {
+html, body {
   background-color: $bg-dark !important;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
 }
 
 @mixin flex-center($direction: row, $gap: 20px) {
