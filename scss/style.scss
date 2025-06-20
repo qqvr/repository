@@ -48,3 +48,10 @@ main h2,
 .integrantes h5 {
   font-size: 1.2em;
 }
+
+.container {
+  padding: 2rem;
+  @media (max-width: 768px) {
+    padding: 1rem;
+  }
+}
