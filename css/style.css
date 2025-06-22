@@ -164,8 +164,8 @@ main h2, .integrantes h3, .integrantes h4, .integrantes h5 {
 .Metallica img,
 .integrantes img,
 .album img {
-  width: 80%;
-  max-width: 100%;
+  width: 100%;
+  max-width: 500px;
   height: auto;
   margin: 20px auto;
   display: block;
@@ -202,4 +202,4 @@ main h2,
 .integrantes h4,
 .integrantes h5 {
   font-size: 1.2em;
-}/*# sourceMappingURL=style.css.map */
+}
