@@ -156,7 +156,6 @@ main h2, .integrantes h3, .integrantes h4, .integrantes h5 {
 }
 
 .Metallica img,
-.integrantes li img,
 .album img {
   width: 100%;
   max-width: 500px;
@@ -164,6 +163,14 @@ main h2, .integrantes h3, .integrantes h4, .integrantes h5 {
   margin: 20px auto;
   display: block;
 }
+
+.integrantes img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
 
 /* Para el logo en el header */
 header img,
