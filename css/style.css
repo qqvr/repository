@@ -1,5 +1,5 @@
 html {
-  font-size: 78%;
+  font-size: 79%;
 }
 
 html, body {
@@ -165,7 +165,7 @@ main h2, .integrantes h3, .integrantes h4, .integrantes h5 {
 }
 
 .integrantes img {
-  max-width: 100%;
+  max-width: auto;
   height: auto;
   display: block;
   margin: 0 auto;
