@@ -162,7 +162,7 @@ main h2, .integrantes h3, .integrantes h4, .integrantes h5 {
 }
 
 .Metallica img,
-.integrantes img,
+.integrantes li img,
 .album img {
   width: 100%;
   max-width: 500px;
